@@ -117,26 +117,85 @@
   /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-/* Carousel base class */
-.carousel {
-    height: 500px;
-    margin-bottom: 60px;
-  }
-  /* Since positioning the image, we need to help out the caption */
-  .carousel-caption {
-    z-index: 10;
-  }
-  
-  /* Declare heights because of positioning of img element */
-  .carousel .item {
-    height: 500px;
-    border: 5px solid #D5AC26;
-    border-radius: 15px;
+
+
+   @media only screen and (min-width: 1500px){
+    .carousel {
+      height: 500px;
+      margin-bottom: 40px;
+      margin-top: 40px;
+    }
+
+    .carousel-indicators{
+      margin-bottom: 20px;
+    }
+
+    .carousel-caption{
+      margin-bottom: 20px;
+    }
+
+    .carousel .item {
+      height: 500px;
+      border: 5px solid #D5AC26;
+      border-radius: 15px;
+    }
+
+    .carousel .item img{
+      margin-top: 100px;
+    }
+ 
+  } 
+
+  @media only screen and (max-width: 1500px){
+    .carousel {
+      height: 500px;
+      margin-bottom: 40px;
+      margin-top: 40px;
+    }
+    .carousel-indicators{
+      margin-bottom: 20px;
+    }
+    .carousel-caption{
+      margin-bottom: 20px;
+    }
+
+    .carousel .item {
+      height: 500px;
+      border: 5px solid #D5AC26;
+      border-radius: 15px;
+    }
+
+    .carousel .item img{
+      margin-top: 10px;
+    }
+ 
   }
 
-  #cont #inner{
-      padding-top: 10px;
-    height: calc(100vh - 90px);
+  @media only screen and (max-width: 550px), screen and(max-height:950) {
+    .carousel {
+      height: 500px;
+      margin-bottom: 40px;
+      margin-top: 40px;
+    }
+
+    .carousel-indicators{
+      margin-bottom: 80px;
+    }
+
+    .carousel-caption{
+      margin-bottom: 80px;
+    }
+
+    .carousel .item {
+      height: 500px;
+      border: 5px solid #D5AC26;
+      border-radius: 15px;
+    }
+
+    .carousel .item img{
+      margin-top: 100px;
+    }
+ 
   }
 
   /* Footer Starts Here */
