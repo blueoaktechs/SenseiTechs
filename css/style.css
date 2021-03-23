@@ -114,11 +114,13 @@
     #check:checked ~ ul{
       left: 0;
     }
-  }
-  section{
+  }  
+
+  /* home starts here */
+  #home{
     background: url(../images/bg1.png) no-repeat;
     background-size: cover;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 30px);
   }
 
   
@@ -206,6 +208,38 @@
     }
  
   }
+
+  /* home ends here */
+
+  /* about starts here */
+  #about{
+    background: url(../images/about/background.png) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 40px);
+  }
+
+  #about .center{
+    padding: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 858px){
+    #about #styl h1{
+      text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    }
+    #boutimg{
+      display: none;
+    }
+  }
+ 
+  /* about ends here */
 
   /* Footer Starts Here */
 

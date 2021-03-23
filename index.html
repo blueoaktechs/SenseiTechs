@@ -24,8 +24,8 @@
       </label>
       <label class="logo"><img src="images/logo.png" style="height: 45px;" alt=""></label>
       <ul>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
         <li><a href="#">Products</a></li>
         <li><a href="#">Testmonials</a></li>
         <li><a href="#">Contact Us</a></li>
@@ -36,7 +36,7 @@
     <br><br><br>
     <br>
     <!-- home section starts -->
-    <section>
+    <section id="home">
       <div class="container" id="cont">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
@@ -101,6 +101,29 @@
 
     <!-- Home section ends -->
 
+    <!-- about starts here -->
+
+    <section id="about">
+      <div class="container">
+        <hr>
+        <div class="row"> 
+          <div class="col-md-4 col-sm-4 col-lg-4 " id="styl">
+            <h1  style="padding-top: 50px;font-family: 'Teko', sans-serif;text-transform: uppercase; border-bottom: 4px solid #D5AC26; color: #D5AC26; width: fit-content;">About us</h1>
+            <p style="font-family: 'Teko', sans-serif;">
+              about us goes here.......
+            </p>
+          </div>
+          <div class="col-md-6 col-sm-6 col-lg-6 " id="boutimg" style="float: right; border: 4px solid white; border-radius: 15px;margin-top: 60px;">
+            <img src="images/about/cpe.jpg" alt="outdoor cpe" class="center">
+          </div>
+        </div>
+      </div>
+      
+
+    </section>
+
+    <!-- about ends here -->
+
     <!-- footer -->
 
     <footer id="footer" class="footer-1">
@@ -123,7 +146,7 @@
         <div class="thumb-content"><a href="#">Home</a></div> 
         </li>
         <li>
-        <div class="thumb-content"><a href="#">About Us</a></div> 
+        <div class="thumb-content"><a href="#about">About Us</a></div> 
         </li>
       <li>
         <div class="thumb-content"><a href="#">Products</a></div>
