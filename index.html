@@ -16,21 +16,21 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   
   </head>
-  <body>
+  <body id="page-top">
     <nav class="navbar-fixed-top">
       <input type="checkbox" id="check">
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
       </label>
       <label class="logo"><img src="images/logo.png" style="height: 45px;" alt=""></label>
-      <ul>
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Testmonials</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><button type="button" id="btn" class="btn btn-success">SignUp</button></li>
-        <li><button type="button" id="btn" class="btn btn-success">Login</button></li>
+      <ul class="ficha">
+        <li><a class="nav-link js-scroll-trigger 1" href="#home">Home</a></li>
+        <li><a class="nav-link js-scroll-trigger 2" href="#about">About Us</a></li>
+        <li><a class="nav-link js-scroll-trigger 3" href="#products">Products</a></li>
+        <li><a class="nav-link js-scroll-trigger 4" href="#testmonies">Testmonials</a></li>
+        <li><a class="nav-link js-scroll-trigger 5" href="#contact_us">Contact Us</a></li>
+        <li><button type="button" id="btn" class="btn btn-success nav-link js-scroll-trigger">SignUp</button></li>
+        <li><button type="button" id="btn" class="btn btn-success nav-link js-scroll-trigger">Login</button></li>
       </ul>
     </nav>
     <br><br><br>
@@ -127,6 +127,120 @@
 
     <!-- about ends here -->
 
+    <!-- products starts here -->
+    <section class="page-section" id="products">
+
+    </section>
+    <!-- products ends here -->
+
+
+    <!-- testmonials starts here -->
+    <section class="page-section" id="testmonies">
+      <div class="container">
+        <div class="text-center" id="testm">
+          <h2 class="section-heading text-uppercase" ><strong>Testmonials</strong></h2>
+          <br>
+        </div>
+      </div>
+
+      <ul class="timeline">
+        <li>
+            <div class="timeline-image" id="timeline_image1"></div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4 class="subheading"><strong>LARRY SACIA</strong></h4>
+                    <h4 class="subheading" style="font-style: italic;"><p class="text-muted">Larry Hospital</p></h4>
+                </div>
+                <br>
+                <div class="timeline-body">
+                    <p class="text-muted">
+                      Organizations talk about building business partnerships, Sensei Technology puts into practice
+                       everything other organizations speak of. The team is accessible, reliable, and looks out
+                        for their customers’ best intentions. When I interact with them it is like an extension 
+                        of my own company. They have the expertise and the know-how to excel in these unprecedented
+                         times, hitting every deadline and milestone we agreed to along the way. 
+                      They are true HealthCare Tech Solutions Heroes!
+                    </p>
+                </div>
+            </div>
+        </li>
+        <li class="timeline-inverted">
+            <div class="timeline-image" id="timeline_image2"></div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4 class="subheading"><strong>TONY GAYA</strong></h4>
+                    <h4 class="subheading" style="font-style: italic;"> <p class="text-muted">Tony Star Solutions</p></h4>
+                </div>
+                <br>
+                <div class="timeline-body">
+                    <p class="text-muted">
+                      We were having quite a challenge finding a vendor who could fulfill our networking needs quickly. 
+                      Fortunately Sensei Technology was suggested. Sensei Technology has been able to fulfill our orders 
+                      quickly and accurately. We also appreciate the flexibility they have.
+                       It’s a great feeling to know that we have our networking vendor identified. 
+                       We are able to feel confident knowing we have the ability to be responsive to our community’s networking needs. 
+                      Thank you Sensei Technology!
+                    </p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="timeline-image" id="timeline_image3"></div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4 class="subheading"><strong>NICK</strong></h4>
+                    <h4 class="subheading" style="font-style: italic;"> <p class="text-muted">Blue Falcony</p></h4>
+                </div>
+                <br>
+                <div class="timeline-body">
+                    <p class="text-muted">
+                      I am so happy with everything that Sensei Technology has done for us. 
+                      We are creating solutions and implementing networking equipments that are substantially 
+                      changing our operations capabilities and strengthening our business so 
+                      we can function in an entirely different stratosphere than where we began. 
+                      Our goal next year is to triple our sales and we could NOT have done that 
+                      without a foundational structure that’s as strong as what you are providing 
+                      us. I hope everyone on your team knows how deeply valued they are to Blue Falcony and 
+                      that we couldn’t have gotten here without all of you!
+                    </p>
+                    </div>
+            </div>
+        </li>
+        <li class="timeline-inverted">
+            <div class="timeline-image">
+                <h4>
+                    Be Part
+                    <br>
+                    Of Our
+                    <br>
+                    Story!
+                </h4>
+            </div>
+        </li>
+    </ul>
+    </section>
+    <!-- testmonials ends here -->
+
+    <!-- contact starts here -->
+    <section class="page-section" id="contact_us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-lg-4" id="contact_left">
+            <div >
+              <h2 class="section-heading text-uppercase">Contact Us</h2>
+              <h5 class="section-heading text-uppercase">Contact Our Support and Sales Team</h5>
+              <h3 class="section-subheading text-muted">Need to get in touch with the team? We are all ears.</h3>
+          </div>
+          </div>
+
+          <div class="col-md-8 col-sm-8 col-lg-8" id="contact_right">
+            <img src="images/contact/larry.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact ends here -->
+
     <!-- footer -->
 
     <footer id="footer" class="footer-1">
@@ -152,13 +266,13 @@
         <div class="thumb-content"><a href="#about">About Us</a></div> 
         </li>
       <li>
-        <div class="thumb-content"><a href="#">Products</a></div>
+        <div class="thumb-content"><a href="#products">Products</a></div>
       </li>
       <li>
-        <div class="thumb-content"><a href="#">Testmonials</a></div> 
+        <div class="thumb-content"><a href="#testmonies">Testmonials</a></div> 
       </li>
       <li>
-        <div class="thumb-content"><a href="#">Contact Us</a></div> 
+        <div class="thumb-content"><a href="#contact_us">Contact Us</a></div> 
       </li>
       </ul>
       </div>
@@ -205,5 +319,13 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+     <!-- Bootstrap core JS-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- Third party plugin JS-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+      <!-- Core theme JS-->
+      <script src="js/script.js"></script>
   </body>
 </html>
